@@ -91,7 +91,7 @@ transaction2 = Transaction(130, "Bought Trousers and Jacket", "purchase")
 transaction2.add_item(item2)
 transaction2.add_item(item4)
 
-transaction3 = Transaction(50, "Sold Dress", "sale")
+transaction3 = Transaction(150, "Sold Dress", "sale")
 transaction3.add_item(item5)
 
 client1.add_transaction(transaction1)
