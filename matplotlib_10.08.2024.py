@@ -7,8 +7,11 @@ plt.hist(pokemon_df['Speed'], color='yellow', edgecolor='green', bins=10)
 plt.xlabel('Speed')
 plt.ylabel('Frequency')
 plt.title('Distribution of Pokemon Speed')
+
+plt.axvline(pokemon_df['Speed'].median(), color='red', linestyle='dotted', linewidth=2)
+plt.axvline(pokemon_df['Speed'].min(), color='blue', linestyle='dotted', linewidth=2) 
+plt.axvline(pokemon_df['Speed'].max(), color='green', linestyle='dashed', linewidth=2)
 plt.show()
 
-plt.axvline(pokemon_df['Speed'].mean(), color='red', linestyle='dashed', linewidth=2)
-plt.axvline(pokemon_df['Speed'].min(), color='blue', linestyle='dashed', linewidth=2) 
-plt.axvline(pokemon_df['Speed'].max(), color='green', linestyle='dashed', linewidth=2)
+
+
