@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+pokemon_df=pd.read_csv('/content/Pokemon.csv')
+pokemon_df.head(n=7)
+
+plt.hist(pokemon_df['Speed'], color='yellow', edgecolor='green', bins=10)
+plt.xlabel('Speed')
+plt.ylabel('Frequency')
+plt.title('Distribution of Pokemon Speed')
+plt.show()
+
+plt.axvline(pokemon_df['Speed'].mean(), color='red', linestyle='dashed', linewidth=2)
+plt.axvline(pokemon_df['Speed'].min(), color='blue', linestyle='dashed', linewidth=2) 
+plt.axvline(pokemon_df['Speed'].max(), color='green', linestyle='dashed', linewidth=2)
