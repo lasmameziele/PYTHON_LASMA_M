@@ -22,3 +22,30 @@ ROW- OBSERVATION
 from sklearn.linear_model import LinearRegression --> Regression model
 model=LinearRegression() --> Create the model
 model.fit(X_train, y_train)  --> Train the model
+
+
+Y=mX+b
+values can get out of the model sklearn...
+
+
+#the [0][0] gets rid of the double [[]]
+
+from sklearn.linear_model import LinearRegression #Import the model
+model = LinearRegression() #Initialize the model
+model.fit(X_train, y_train) #Fit the model
+my_new_budget = [[50]] #2D array dataset
+my_predicted_sales = model.predict(my_new_budget)
+
+print(f'When the new budget is {my_new_budget[0][0]}, then predicted sales are {round(my_predicted_sales[0][0])}.')
+
+
+We have splitted and trained data set above.
+We have used only trained data set. 
+
+Now we will use tested data set
+
+
+
+This code calculates the absolute difference between actual sales and predicted sales, storing it in a new column called 'ABS_Error_Actual_vs_Predicted' in the dataframe final_df.
+final_df['ABS_Error_Actual_vs_Predicted']=abs(final_df['Sales']-final_df['Predicted_Sales'])
+final_df.head()
