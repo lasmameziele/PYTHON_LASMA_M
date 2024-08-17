@@ -1,0 +1,12 @@
+Unsupervised learning is Clients needs to split into groups and then we send out marketing material to groups. Clustering - unsupervised learning method.
+Groups are generated where each client be on the graph.
+So supervised uses labeled training data, and unsupervised does not.
+Supervised Learning aims to make predictions based on the training data.
+Unsupervised Learning aims to uncover hidden patterns or structures in the data.
+
+UNSUPERVISED - we don't have labeled data, supervised learning - we have labeled data.
+
+https://scikit-learn.org/stable/
+
+in Data science train different models.
+
