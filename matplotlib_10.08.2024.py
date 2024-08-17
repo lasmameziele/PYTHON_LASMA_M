@@ -13,5 +13,10 @@ plt.axvline(pokemon_df['Speed'].min(), color='blue', linestyle='dotted', linewid
 plt.axvline(pokemon_df['Speed'].max(), color='green', linestyle='dashed', linewidth=2)
 plt.show()
 
+--Correlation: positive colleration means if attach increasers, also defense increases.
+#Scatterplot
+plt.scatter(pokemon_df['Attack'], pokemon_df['Defense'], color='red', alpha=0.5)
+
+
 
 
