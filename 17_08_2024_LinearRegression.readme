@@ -10,3 +10,15 @@ https://scikit-learn.org/stable/
 
 in Data science train different models.
 
+COLUMN - FEATURE
+ROW- OBSERVATION
+
+1.import the mofdel
+2.we initialize the model
+3.we nered to call it
+
+
+#TRAIN MODEL
+from sklearn.linear_model import LinearRegression --> Regression model
+model=LinearRegression() --> Create the model
+model.fit(X_train, y_train)  --> Train the model
