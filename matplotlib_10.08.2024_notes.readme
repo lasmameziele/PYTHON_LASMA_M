@@ -4,4 +4,6 @@ No correlation if there is horizontal line.
 
 
 Pearson correlation-need to calculate, weathere there is or not colleration between two variables (columns).
-
+Result of this correlation calculation is between -1 and 1.
+-1 means perfect negative relationship
++1 means perfect positive relationship
