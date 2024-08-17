@@ -20,3 +20,5 @@ plt.scatter(pokemon_df['Attack'], pokemon_df['Defense'], color='red', alpha=0.5)
 
 
 
+
+
