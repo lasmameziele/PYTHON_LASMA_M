@@ -1,1 +1,5 @@
+--'nan' means that everything with mapping is done correct
+titanic_data['who'].unique()
+
+titanic_data.head()
 
