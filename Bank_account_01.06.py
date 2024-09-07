@@ -1,5 +1,4 @@
 #Creat bank account
-```py
 import datetime
 
 class Client:
@@ -66,4 +65,3 @@ for client in clients:
     print(f'    {account.number} ({account.currency}) {account.balance}')
     for transaction in account.transactions:
       print(f'        {transaction.time_stamp} {transaction.currency} {transaction.amount}')
-```
