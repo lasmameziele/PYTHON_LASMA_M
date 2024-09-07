@@ -1,4 +1,3 @@
-```py
 #Here I create an online shop where a customer can be a buyer to purchase other people's items and also a seller of his own items.
 import datetime
 
@@ -103,4 +102,3 @@ for client in clients:
     print(client)
     for transaction in client.transactions:
         print(transaction)
-```
